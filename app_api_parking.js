@@ -7,7 +7,7 @@ const parkings = require('./parkings.json');
 app.use(express.json());
  
 
-//  ROUTE 
+//  ROUTE
 
 //route pour la liste des parkings
 app.get('/parkings', (req,res) => {
