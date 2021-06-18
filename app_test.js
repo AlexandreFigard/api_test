@@ -25,7 +25,6 @@ app.post('/parkings', (req,res) => {
   pes.status(200).json(parkings);
 })
 
- 
 // route put parkings
 app.put('/parkings/:id', (req,res) => {
   const id = parseInt(req.params.id);
